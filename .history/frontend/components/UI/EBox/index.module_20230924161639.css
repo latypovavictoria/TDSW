@@ -1,0 +1,53 @@
+.outer_box {
+	--b: 3px;
+	/* thickness of the border */
+	--c: #4dffff;
+	/* color of the border */
+	--w: 15px;
+	/* width of border */
+
+	border: var(--b) solid #0000;
+	/* space for the border */
+	--_g: #0000 90deg, var(--c) 0;
+	--_p: var(--w) var(--w) border-box no-repeat;
+	background: conic-gradient(from 90deg at top var(--b) left var(--b),
+			var(--_g)) 0 0 / var(--_p),
+		conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p),
+		conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p),
+		conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+}
+
+.outer_box_notched {
+	--w: 30px;
+	/* width of border */
+	background: conic-gradient(from 90deg at top var(--b) left var(--b),
+			var(--_g)) 0 0 / var(--_p);
+}
+
+.outer_box_notched::before {
+	content: "";
+	top: 0;
+	left: 0;
+	position: absolute;
+	border-top: 20px solid var(--border);
+	border-right: 20px solid transparent;
+	width: 0;
+	margin: -2px;
+}
+
+.outer_box_notched::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: 17px solid var(--background);
+	border-right: 17px solid transparent;
+	width: 0;
+	margin: -3px;
+}
+
+.outer_box_two_corners {
+	background: conic-gradient(from 90deg at top var(--b) left var(--b),
+			var(--_g)) 0 0 / var(--_p),
+		conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p);
+}
