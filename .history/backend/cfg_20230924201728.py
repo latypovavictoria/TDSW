@@ -1,0 +1,1 @@
+DATABASE_PATH = 'sqlite:///../kernel/Models.db'
