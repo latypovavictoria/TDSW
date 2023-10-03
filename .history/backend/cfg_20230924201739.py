@@ -1,1 +1,0 @@
-DATABASE_PATH = 'sqlite:///../backend/Models.db'

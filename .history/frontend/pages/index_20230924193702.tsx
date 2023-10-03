@@ -1,1 +1,0 @@
-/Users/ilabelozerov/UPRM/frontend/pages/index.tsx
