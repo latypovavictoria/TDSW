@@ -1,0 +1,10 @@
+.item {
+  position: absolute;
+  top: 0;
+  max-height: 60vh;
+}
+
+.inactive {
+  filter: sepia(200%) saturate(200%) hue-rotate(137deg) brightness(95%)
+    contrast(93%) opacity(80%);
+}

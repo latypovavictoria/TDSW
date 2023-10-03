@@ -1,0 +1,100 @@
+{
+  "title": "PATIENT",
+  "s_title": "Patients",
+  "a_title": "New patient",
+
+  "avatar": "Change avatar",
+  "logout": "Log out",
+
+  "firstName": "First name",
+  "lastName": "Last name",
+  "middleName": "Middle name",
+  "birthdate": "Date of Birth",
+  "weight": "Weight",
+  "height": "Height",
+  "insurance": "Insurance number",
+  "phone": "Phone number",
+
+  "risks": "Risks",
+  "recommendations": "Recommendations",
+
+  "sex": {
+    "title": "Sex",
+    "male": "Male",
+    "female": "Female"
+  },
+
+  "ecg": "ECG",
+
+  "signin": "SING IN",
+
+  "w_units": "kg",
+
+  "attach": "Attach",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+
+  "l_title": "Attach patient",
+  "back": "Back",
+  "no_patients": "No patients",
+
+  "detach_patient_text": "Are you sure you want to detach this patient?",
+
+  "pickUpNotActive": "Data pickup is not active",
+  "startPickUp": "Start data pickup",
+  "stopPickUp": "Stop data pickup",
+
+  "averagePulse": "Average pulse",
+  "arithmiaPresence": "Arrhythmia",
+
+  "currentPulse": "Current pulse",
+
+  "averageStress": "Average stress level",
+  "averageStamina": "Average stamina",
+  "yes": "Yes",
+  "no": "No",
+  "noData": "No available data",
+  "bps": "beats/min",
+
+  "lungs": "Oxygen data",
+
+  "noAvailableSettings": "No settings available",
+
+  "filters": "Filter Patients",
+  "asc": "Asc.",
+  "desc": "Desc.",
+  "sort": "Sort By",
+  "none": "None",
+  "less": "Less than",
+  "lessor": "Less than or Equal",
+  "equal": "Equal to",
+  "greater": "Greater than",
+  "greateror": "Greater than or Equal",
+
+  "filter": {
+    "age": "Age",
+    "patologies": "# of Patologies",
+    "name": "Name",
+    "id": "Id",
+    "disallowance": "# of Disallowances",
+    "alcohol": "# of Alcohol",
+    "tid": "Table id",
+    "firstName": "First Name",
+    "lastName": "Last name",
+    "phone": "Phone number",
+    "sex": "Sex",
+    "insure_number": "Insurance number",
+    "email": "Email"
+  },
+
+  "group": {
+    "on": "Grouping on",
+    "off": "Grouping off"
+  },
+
+  "loading": "Loading...",
+
+  "search": "Search",
+
+  "loadMore": "Load more"
+}

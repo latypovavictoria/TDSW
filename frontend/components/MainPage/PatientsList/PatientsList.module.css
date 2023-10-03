@@ -1,0 +1,39 @@
+.button {
+  background-color: var(--text);
+  border: 1px solid var(--border);
+  color: var(--background);
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button_secondary {
+  background-color: transparent;
+  color: var(--text);
+}
+
+.input {
+  padding: 0.25rem;
+  flex-grow: 1;
+  background-color: #1b3f4722;
+  border: none;
+  color: var(--text);
+}
+
+.input:focus {
+  outline: none;
+  caret-color: var(--text);
+}
+
+.icon_allowed {
+  filter: brightness(0) saturate(100%) invert(83%) sepia(51%) saturate(3480%)
+    hue-rotate(77deg) brightness(96%) contrast(124%);
+}
+
+.icon_not_allowed {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(92%) saturate(7401%)
+    hue-rotate(329deg) brightness(107%) contrast(104%);
+}

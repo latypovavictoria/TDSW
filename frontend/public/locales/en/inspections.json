@@ -1,0 +1,73 @@
+{
+  "title": "Inspections",
+
+  "noInspections": "No inspections of selected type",
+
+  "types": {
+    "shift": "Shift",
+
+    "ecg": "ECG",
+
+    "pre-shift": "Pre-Shift",
+    "post-shift": "Post-Shift"
+  },
+
+  "status": {
+    "error": "Error",
+    "success": "Success",
+    "loading": "Uploading"
+  },
+
+  "type": "Type",
+  "date": "Date",
+  "pressure": {
+    "default": "Blood pressure",
+    "upper": "Upper pressure",
+    "lower": "Lower pressure"
+  },
+  "temperature": "Body temperature",
+  "intoxication": "Intoxication",
+  "pulse": "Pulse",
+  "allowance": {
+    "title": "AI Result",
+    "yes": "Allowed",
+    "no": "Not allowed"
+  },
+  "result": "Result",
+  "videos": "Videos",
+  "selectAVideo": "Select a video to view",
+  "noVideos": "Not present",
+  "upload": "Upload",
+  "delete": "Delete",
+
+  "exportInspections": "Export inspections",
+  "exportSubmit": "Export",
+  "onlyCurrentPage": "Only current page",
+
+  "page": "Page",
+  "perPage": "Inspections per page",
+  "details": "See details",
+  "detailsTitle": "Inspection details",
+  "of": "of",
+
+  "fileModalHeader": "Manage inspection file",
+  "fileDownload": "Download file",
+  "fileUpload": "Upload file",
+  "file": "File",
+  "fileControl": "Manage",
+
+  "createInspection": "Create new inspection",
+  "cancel": "Cancel",
+  "submit": "Submit",
+
+  "pGraph": {
+    "title": "Overview graph"
+  },
+
+  "loading": "Loading...",
+
+  "organization_hash": "Organization code",
+
+  "true": "Yes",
+  "false": "No"
+}

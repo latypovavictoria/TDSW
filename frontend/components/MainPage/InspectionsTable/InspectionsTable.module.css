@@ -1,0 +1,18 @@
+.table tr :first-child {
+  border-left: none;
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--background-alternate);
+}
+
+.table th {
+  text-align: center;
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.table td {
+  text-align: center;
+  border-left: 1px solid var(--border);
+}

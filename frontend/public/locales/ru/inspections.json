@@ -1,0 +1,73 @@
+{
+  "title": "Осмотры",
+
+  "noInspections": "Нет осмотров выбранного типа",
+
+  "types": {
+    "shift": "Рейсовые",
+
+    "ecg": "ЭКГ",
+
+    "pre-shift": "Предрейсовый",
+    "post-shift": "Пострейсовый"
+  },
+
+  "status": {
+    "error": "Ошибка",
+    "success": "Успешно",
+    "loading": "Загрузка"
+  },
+
+  "type": "Тип осмотра",
+  "date": "Дата",
+  "pressure": {
+    "default": "Давление",
+    "upper": "Верхнее давление",
+    "lower": "Нижнее давление"
+  },
+  "temperature": "Температура",
+  "intoxication": "Опьянение",
+  "pulse": "Пульс",
+  "allowance": {
+    "title": "Анализ ИИ",
+    "yes": "Допущен",
+    "no": "Отказано в допуске"
+  },
+  "result": "Результат",
+  "videos": "Видео",
+  "selectAVideo": "Выберите видео для просмотра",
+  "noVideos": "Отсутствуют",
+  "upload": "Загрузить",
+  "delete": "Удалить",
+
+  "exportInspections": "Сохранить осмотры",
+  "exportSubmit": "Скачать",
+  "onlyCurrentPage": "Только текущая страница",
+
+  "page": "Страница",
+  "perPage": "Осмотров на странице",
+  "details": "Подробнее",
+  "detailsTitle": "Информация об осмотре",
+  "of": "из",
+
+  "fileModalHeader": "Управление файлом осмотра",
+  "fileDownload": "Скачать файл",
+  "fileUpload": "Прикрепить файл",
+  "file": "Файл",
+  "fileControl": "Управление",
+
+  "createInspection": "Добавить осмотр",
+  "cancel": "Отменить",
+  "submit": "Подтвердить",
+
+  "pGraph": {
+    "title": "График состояния"
+  },
+
+  "loading": "Загрузка осмотров...",
+
+  "organization_hash": "Код организации",
+
+  "true": "Да",
+  "false": "Нет"
+}

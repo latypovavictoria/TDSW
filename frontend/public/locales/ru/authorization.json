@@ -1,0 +1,43 @@
+{
+  "auth": {
+    "title": "Авторизация",
+    "login": "Логин",
+    "password": "Пароль",
+    "signin": "Войти"
+  },
+  "register": {
+    "title": "Регистрация",
+    "login": "Логин",
+    "patient": "Зарегистрироваться как пациент",
+    "doctor": "Зарегистрироваться как врач",
+    "register": "Зарегистрироваться",
+    "error": "Ошибка регистрации",
+    "noScheme": "Не найдена схема регистрации"
+  },
+
+  "invalid_number": "Неверный номер",
+  "server_error": "Ошибка сервера",
+
+  "accountTypes": {
+    "supervisor": "Губернатор",
+    "administrator": "Администратор",
+    "doctor": "Врач",
+    "patient": "Пациент"
+  },
+
+  "fields": {
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "patronymic": "Отчество",
+    "phone": "Мобильный телефон",
+    "birthday": "Дата рождения",
+    "height": "Рост",
+    "weight": "Вес",
+    "insure_number": "ОМС",
+    "login": "Логин",
+    "password": "Пароль",
+    "organization_id": "ID организации",
+    "organization_hash": "Код организации",
+    "server_error": "Ошибка сервера"
+  }
+}

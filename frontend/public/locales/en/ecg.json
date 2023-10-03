@@ -1,0 +1,28 @@
+{
+  "chart": {
+    "title": "ECG"
+  },
+  "en": {
+    "title": "Event navigator"
+  },
+  "pie": {
+    "title": "Spectral power"
+  },
+  "hgram": {
+    "title": "Durations of cardio intervals"
+  },
+  "filter": "Filter",
+  "loading": "Loading ECG data...",
+  "noData": "No available data",
+  "value": "Value",
+  "stat": {
+    "header": "Statistics",
+    "en": "Event navigator",
+    "sp": "Spectral power",
+    "ci": "Cardio intervals",
+    "rh": "Rhythmogram",
+    "sg": "Scattergram"
+  },
+
+  "isoline": "Isoline"
+}

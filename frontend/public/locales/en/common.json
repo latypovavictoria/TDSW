@@ -1,0 +1,27 @@
+{
+  "title": "DIGITAL AVATAR",
+  "authError": "Authentication Error",
+  "unknownError": "Unknown Error",
+
+  "paths": {
+    "avatar": "Home",
+    "admBoard": "Admin Board",
+    "signin": "Auth",
+    "register": "Registration"
+  },
+
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "resetAvatar": "Reset Avatar",
+  "changeAvatar": "Change Avatar",
+
+  "error": {
+    "unauthorized": "Please login to access this page",
+    "noAccess": "You have no access to this page"
+  },
+
+  "noErrors": "No notifications",
+  "confirmPassword": "Password",
+
+  "page_title": "$t(paths.{{page}}) | Digital Avatar"
+}

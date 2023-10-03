@@ -1,0 +1,1 @@
+import FreqChart from './FreqChart';

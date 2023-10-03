@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "title": "Authorization",
+    "login": "Login",
+    "password": "Password",
+    "signin": "Sign in"
+  },
+  "register": {
+    "title": "Registration",
+    "patient": "Register as patient",
+    "doctor": "Register as doctor",
+    "register": "Register",
+    "error": "Error",
+    "noScheme": "No scheme"
+  },
+
+  "invalid_number": "Invalid number",
+  "server_error": "Server error",
+
+  "accountTypes": {
+    "supervisor": "Supervisor",
+    "administrator": "Administrator",
+    "doctor": "Doctor",
+    "patient": "Patient"
+  },
+
+  "fields": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "patronymic": "Patronymic",
+    "phone": "Phone number",
+    "birthday": "Date of Birth",
+    "height": "Height",
+    "weight": "Weight",
+    "insure_number": "Insurance number",
+    "login": "Login",
+    "password": "Password",
+    "organization_id": "Org. ID",
+    "organization_hash": "Org. code",
+    "sex": "Sex",
+    "tid": "Table ID",
+
+    "server_error": "Server error"
+  }
+}

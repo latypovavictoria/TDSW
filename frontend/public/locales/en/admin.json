@@ -1,0 +1,44 @@
+{
+  "map": {
+    "title": "Map"
+  },
+  "side": {
+    "title": "Info"
+  },
+  "stats": {
+    "title": "Statistics",
+    "ok": "OK",
+    "warning": "Warning",
+    "danger": "Danger",
+    "factories": "Factories",
+    "overall": "Overall",
+    "alcohol": "Alcohol",
+    "pressure": "Pressure"
+  },
+
+  "stat": {
+    "overall_total": "Total number of inspections",
+    "alcohol_total": "Total number of alcohol related patologies",
+    "pressure_total": "Total number of pressure related patologies"
+  },
+
+  "events": {
+    "filter": {
+      "show": "Show all events",
+      "hide": "Show only recent"
+    }
+  },
+  "zone": {
+    "name": "Name",
+    "width": "Latitude",
+    "longitude": "Longitude",
+    "parent": "Parent zone",
+    "children": "Child zones",
+    "create": "Create zone"
+  },
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "mean_stat": "Average values",
+
+  "high_stat_header": "Patients with most number of patologies"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Статистика",
+  "header_all": "Все",
+  "header_ok": "Норма",
+  "header_warning": "Опасность",
+  "header_danger": "Критическое"
+}

@@ -1,0 +1,118 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N813" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="vars" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="keras.applications.resnet50" />
+          <option value="flask_app.app" />
+          <option value="flask_app.stringToImage" />
+          <option value="flask_app.Flask" />
+          <option value="flask_app.mpl_toolkits" />
+          <option value="app.stringToImage" />
+          <option value="ssl._create_unverified_context" />
+          <option value="dict.check_password" />
+          <option value="dict.get_info" />
+          <option value="dict.patients" />
+          <option value="dict.doctors" />
+          <option value="dict.add_patient" />
+          <option value="int.append" />
+          <option value="str.append" />
+          <option value="str.in_" />
+          <option value="str.strftime" />
+          <option value="backend.logger.logger.info" />
+          <option value="backend.logger.logger.error" />
+          <option value="dict.risks" />
+          <option value="dict.del_patinet" />
+          <option value="dict.del_patient" />
+          <option value="dict.set_result" />
+          <option value="requests.models.Response.get_json" />
+          <option value="kernel.server_config.KERNAL_HOST" />
+          <option value="kernel.server_config.KERNAL_PORT" />
+          <option value="dict.set_model_flags" />
+          <option value="dict.__getitem__" />
+          <option value="dict.get_file" />
+          <option value="dict.save_file" />
+          <option value="aiohttp.client._SessionRequestContextManager.__await__" />
+          <option value="requests.models.Response.__await__" />
+          <option value="str.read" />
+          <option value="dict.set_json_data" />
+          <option value="cv2.imread" />
+          <option value="cv2.IMREAD_GRAYSCALE" />
+          <option value="cv2.INTER_LANCZOS4" />
+          <option value="cv2.resize" />
+          <option value="kernel.run.UPRM" />
+          <option value="kernel.server.*" />
+          <option value="backend.utils.KERNEL_PORT" />
+          <option value="backend.utils.KERNEL_HOST" />
+          <option value="backend.utils.get_model_scheme" />
+          <option value="kernel.run.app" />
+          <option value="kernel.run.KERNEL_HOST" />
+          <option value="kernel.run.KERNEL_PORT" />
+          <option value="kernel.run.DEBUG" />
+          <option value="kernel.model_db.MODEL_DATABASE_PATH" />
+          <option value="kernel.model_db.MODELS_PATHS" />
+          <option value="kernel.model_db.DigitalReanimation" />
+          <option value="backend.application.*" />
+          <option value="dict.patient_id" />
+          <option value="dict.set_risk" />
+          <option value="cv2.cvtColor" />
+          <option value="cv2.COLOR_BGR2GRAY" />
+          <option value="cv2.erode" />
+          <option value="dict.get_ecg_hash" />
+          <option value="dict.set_ecg_hash" />
+          <option value="str.get_info" />
+          <option value="dict.set_route_result" />
+          <option value="dict.account_type" />
+          <option value="dict.parent_id" />
+          <option value="dict.Id" />
+          <option value="dict.doctor_id" />
+          <option value="str.patient_id" />
+          <option value="dict.detach_pati" />
+          <option value="dict.detach_patient" />
+          <option value="dict.firstName" />
+          <option value="dict.lastName" />
+          <option value="dict.patronymic" />
+          <option value="str.doctor_id" />
+          <option value="dict.set_parent_id" />
+          <option value="dict.set_file_hash" />
+          <option value="dict.reset_ai_result" />
+          <option value="dict.supervisor_id" />
+          <option value="dict.inspections" />
+          <option value="str.risk" />
+          <option value="str.datetime_created" />
+          <option value="dict.name" />
+          <option value="datetime.datetime.timedelta" />
+          <option value="typing.BinaryIO.getparams" />
+          <option value="typing.BinaryIO.readframes" />
+          <option value="rr_seconds" />
+          <option value="backend.logger.logger.debug" />
+          <option value="array.tolist" />
+          <option value="array.shape" />
+          <option value="str.decode" />
+          <option value="src.fuzzyops._fuzzynumber.Car" />
+          <option value="int.is_integer" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

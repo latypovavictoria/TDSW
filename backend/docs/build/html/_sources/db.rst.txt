@@ -1,0 +1,6 @@
+DataBase module
+===============
+
+.. automodule:: db.tables.tables
+   :members:
+   :undoc-members:

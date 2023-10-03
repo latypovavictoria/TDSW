@@ -1,0 +1,143 @@
+body {
+  background-color: #002b34 !important;
+  --border: #4dffff;
+  --text: #4dffff;
+  --text-alternate: #18a7a7;
+  --background: #002a33;
+  --background-alternate: #001f2a;
+  --bg-active: #000a17;
+  color: var(--text);
+  font-family: "robotoregular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--background-alternate);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--text);
+}
+
+/* No underline on links */
+
+a {
+  text-decoration: none;
+}
+
+/* Fancy Progress Bar */
+
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+
+  height: 8px;
+}
+
+progress::-webkit-progress-bar {
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(0, 31, 42),
+    rgb(14, 96, 109),
+    rgb(0, 31, 42)
+  );
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--text);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--text);
+}
+
+/* Simpler inputs */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: initial;
+}
+
+/* CheckBoxes */
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type="checkbox"].css-checkbox {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type="checkbox"].css-checkbox + label.css-label {
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="checkbox"].css-checkbox:checked + label.css-label {
+  background-position: 0 -15px;
+}
+
+select {
+  color: var(--text);
+  background-color: var(--background-alternate);
+  outline: none;
+  border: none;
+  padding: 2px;
+}
+
+.css-label {
+  background-image: url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+}
+.dark-plus-cyan {
+  background-image: url(http://csscheckbox.com/checkboxes/dark-plus-cyan.png);
+}
+
+/* Toast Style */
+
+.Toastify__toast {
+  min-height: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  max-height: none;
+  background: none;
+  color: var(--text);
+}
+
+/* Needs deletion */

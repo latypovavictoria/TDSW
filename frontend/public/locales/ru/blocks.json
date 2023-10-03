@@ -1,0 +1,19 @@
+{
+  "GubernatorEvents": "События",
+  "GubernatorMap": "Карта",
+  "GubernatorStats": "Статистика",
+  "ecg_chart": "График ЭКГ",
+  "ecg_stat": "Статистика ЭКГ",
+  "InspectionsTable": "Таблица осмотров",
+  "main_nav_bar": "Навигация",
+  "OverviewECG": "Статистика ЭКГ",
+  "OverviewPatient": "Информация о пациенте",
+  "OverviewPulseGraph": "График состояния",
+  "OverviewRecommendations": "Рекомендации",
+  "OverviewRisks": "Риски",
+  "OverviewStats": "Статистика",
+  "PatientsList": "Список пациентов",
+  "side_bar": "Управление",
+  "OverviewStress": "Психоэмоциональное состояние",
+  "OverviewLungs": "Состояние О2"
+}

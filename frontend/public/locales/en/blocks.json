@@ -1,0 +1,19 @@
+{
+  "GubernatorEvents": "Events",
+  "GubernatorMap": "Map",
+  "GubernatorStats": "Stats",
+  "ecg_chart": "ECG Chart",
+  "ecg_stat": "ECG Stat",
+  "InspectionsTable": "Inspections Table",
+  "main_nav_bar": "Main Nav Bar",
+  "OverviewECG": "ECG Overview",
+  "OverviewPatient": "Patient Info",
+  "OverivewPulseGraph": "Overview Graph",
+  "OverviewRecommendations": "Recommendations",
+  "OverviewRisks": "Risks",
+  "OverviewStats": "Stats",
+  "PatientsList": "Patients List",
+  "OverviewStress": "Psycho-Emotional State",
+  "OverviewLungs": "O2 State",
+  "side_bar": "Side Bar"
+}
