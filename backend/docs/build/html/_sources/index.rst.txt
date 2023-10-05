@@ -9,4 +9,4 @@ Welcome to UPRM's documentation!
 
    transport
    ui
-   db
+   pkg

@@ -9,7 +9,6 @@ from pkg.webapi import parse_json_from_request, ServiceMessages, create_response
 
 @app.route('/v2/auth/forms', methods=['POST'])
 def sending_types_for_each_user_type():
-
     """
     Функция для отправки типов данных по каждому типу пользователя
 
@@ -26,9 +25,7 @@ def sending_types_for_each_user_type():
         return response
 
     account_type = data['account_type']
-
     user_scheme_obj = get_user_scheme_obj(account_type)
-
     response = create_response(
         status=status.HTTP_201_CREATED,
         message='ok',

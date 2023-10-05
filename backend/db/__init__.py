@@ -14,6 +14,12 @@ from .tables.tables import (
 
     RolesSchemes,
     InspectionSchemes,
+    Roles,
+    ParentsChildren,
+    Users,
+    Tokens,
+    Files,
+Inspections
 
 )
 
@@ -21,7 +27,9 @@ __all__ = [
 
     "create_session",
     "RolesSchemes",
-
+    "ParentsChildren",
+    "Users"
     "InspectionSchemes",
+    "Tokens"
 
 ]

@@ -42,6 +42,7 @@ else:
 
 DB = Configuration().DB
 
+
 class JsonSchemes:
     """
     Класс для определения параметров схемы у рейсовых и осмотров по экг

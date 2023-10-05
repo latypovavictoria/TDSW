@@ -64,6 +64,92 @@
 </dl>
 </dd></dl>
 
+<span class="target" id="module-transport.auth.login"></span><dl class="py function">
+<dt class="sig sig-object py" id="transport.auth.login.page_login">
+<span class="sig-prename descclassname"><span class="pre">transport.auth.login.</span></span><span class="sig-name descname"><span class="pre">page_login</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#transport.auth.login.page_login" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Авторизация</p>
+<dl class="field-list simple">
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>Reponse</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-transport.auth.registration"></span><span class="target" id="module-transport.ecg_inspections.get_ecg_record"></span><dl class="py function">
+<dt class="sig sig-object py" id="transport.ecg_inspections.get_ecg_record.get_ecg_record">
+<span class="sig-prename descclassname"><span class="pre">transport.ecg_inspections.get_ecg_record.</span></span><span class="sig-name descname"><span class="pre">get_ecg_record</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inspection_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#transport.ecg_inspections.get_ecg_record.get_ecg_record" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция для получения и отрисовки записи экг</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>id: id of inspection</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>Response to front (status, message, data)</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-transport.patients.get"></span><dl class="py function">
+<dt class="sig sig-object py" id="transport.patients.get.server_path_get_patients">
+<span class="sig-prename descclassname"><span class="pre">transport.patients.get.</span></span><span class="sig-name descname"><span class="pre">server_path_get_patients</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#transport.patients.get.server_path_get_patients" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция для получения пациентов</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>user_id: id пользователя</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>kwargs - параметры сессии</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>Response</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-transport.patients.get_all_attached"></span><dl class="py function">
+<dt class="sig sig-object py" id="transport.patients.get_all_attached.get_all_doctor_patients">
+<span class="sig-prename descclassname"><span class="pre">transport.patients.get_all_attached.</span></span><span class="sig-name descname"><span class="pre">get_all_doctor_patients</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">doctor_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#transport.patients.get_all_attached.get_all_doctor_patients" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получение всех пациентов, прикрепленных к врачу</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>doctor_id id of doctor</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>kwargs tokens</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>Response to front (status, message, data)</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -87,6 +173,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Transport module</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ui.html">UI module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pkg.html">pkg module</a></li>
 </ul>
 
 <div class="relations">
@@ -121,7 +208,7 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2023, Ilya, Vika, Engen.
+      &copy;2023, Ilya, Viktoria, Evgeniy.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>

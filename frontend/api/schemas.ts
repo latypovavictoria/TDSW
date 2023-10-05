@@ -7,15 +7,15 @@ export const jsonSchema: z.ZodType<Json> = z.lazy(() =>
   z.union([literalSchema, z.array(jsonSchema), z.record(jsonSchema)])
 );
 
-export function hasOrganizationId(arg: any, ctx: z.RefinementCtx) {
-  if (!arg.organization_id && !arg.organization_hash) {
-    ctx.addIssue({
-      path: ["organization_hash"],
-      code: z.ZodIssueCode.custom,
-      message: "organization_id or organization_hash is required",
-    });
-  }
-}
+// export function hasOrganizationId(arg: any, ctx: z.RefinementCtx) {
+//   if (!arg.organization_id && !arg.organization_hash) {
+//     ctx.addIssue({
+//       path: ["organization_hash"],
+//       code: z.ZodIssueCode.custom,
+//       message: "organization_id or organization_hash is required",
+//     });
+//   }
+// }
 
 export const schedulesSchema = z.object({
   id: z.number(),

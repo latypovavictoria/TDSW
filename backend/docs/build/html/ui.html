@@ -16,7 +16,7 @@
     <script src="_static/translations.js"></script>
     <link rel="index" title="Алфавитный указатель" href="genindex.html" />
     <link rel="search" title="Поиск" href="search.html" />
-    <link rel="next" title="DataBase module" href="db.html" />
+    <link rel="next" title="pkg module" href="pkg.html" />
     <link rel="prev" title="Transport module" href="transport.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -129,8 +129,48 @@
 </dd></dl>
 
 <span class="target" id="module-ui.users.get"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.users.get.get_user">
+<span class="sig-prename descclassname"><span class="pre">ui.users.get.</span></span><span class="sig-name descname"><span class="pre">get_user</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hash_map</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span> </span><span class="pre">typing.Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">db.tables.tables.Users</span><span class="p"><span class="pre">,</span> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.users.get.get_user" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получение юзера из БД</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>hash_map фильтр</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dict[str, Any]</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>объект из бд с ошибкой</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>tuple[Users,  None]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ui.users.get.get_user_from_tokens_db">
+<span class="sig-prename descclassname"><span class="pre">ui.users.get.</span></span><span class="sig-name descname"><span class="pre">get_user_from_tokens_db</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hash_map</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span> </span><span class="pre">typing.Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">db.tables.tables.Tokens</span><span class="p"><span class="pre">,</span> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.users.get.get_user_from_tokens_db" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получение токена юзера из БД</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>hash_map фильтр</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dict[str, Any]</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>объект из бд с ошибкой</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>tuple[Tokens, bool]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt class="sig sig-object py" id="ui.users.get.get_user_scheme_obj">
-<span class="sig-prename descclassname"><span class="pre">ui.users.get.</span></span><span class="sig-name descname"><span class="pre">get_user_scheme_obj</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">account_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="db.html#db.tables.tables.RolesSchemes" title="db.tables.tables.RolesSchemes"><span class="pre">db.tables.tables.RolesSchemes</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.users.get.get_user_scheme_obj" title="Ссылка на это определение">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">ui.users.get.</span></span><span class="sig-name descname"><span class="pre">get_user_scheme_obj</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">account_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">db.tables.tables.RolesSchemes</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.users.get.get_user_scheme_obj" title="Ссылка на это определение">¶</a></dt>
 <dd><p>Получение схемы типов данных в зависимости от типа аккаунта</p>
 <dl class="field-list simple">
 <dt class="field-odd">Param</dt>
@@ -143,7 +183,162 @@
 <dd class="field-odd"><p>Схема аккаунта</p>
 </dd>
 <dt class="field-even">Тип результата</dt>
-<dd class="field-even"><p>list[<a class="reference internal" href="db.html#db.tables.tables.RolesSchemes" title="db.tables.tables.RolesSchemes">RolesSchemes</a>]</p>
+<dd class="field-even"><p>list[RolesSchemes]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.files.create"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.files.create.create_file">
+<span class="sig-prename descclassname"><span class="pre">ui.files.create.</span></span><span class="sig-name descname"><span class="pre">create_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bytes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inspection_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">session</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">sqlalchemy.orm.scoping.scoped_session</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">db.tables.tables.Files</span></span></span><a class="headerlink" href="#ui.files.create.create_file" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Создание файла</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>file_data: file</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>bytes</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>inspection_id: id of inspection</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>session: db ses</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>Session</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>File object in db</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>Files</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.files.decode"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.files.decode.decode_file">
+<span class="sig-prename descclassname"><span class="pre">ui.files.decode.</span></span><span class="sig-name descname"><span class="pre">decode_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inspection_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bytes</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bytes</span></span></span><a class="headerlink" href="#ui.files.decode.decode_file" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция для декодирования файла экг</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>inspection_type: type of each inspection</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+<dt class="field-odd">Параметры</dt>
+<dd class="field-odd"><p><strong>file</strong> – file</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>bytes</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>new bytes row</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>bytes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.files.eval_ecg_quality"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.files.eval_ecg_quality.eval_quality">
+<span class="sig-prename descclassname"><span class="pre">ui.files.eval_ecg_quality.</span></span><span class="sig-name descname"><span class="pre">eval_quality</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_edf</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">insp_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">,</span> </span><span class="pre">bool</span><span class="p"><span class="pre">,</span> </span><span class="pre">dict</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.files.eval_ecg_quality.eval_quality" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция для оценки качества сигнала и сохранения метаданных</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>data - ecg row</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>np.ndarray</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>is_edf - flag is edf format</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>insp_id - id of inspection</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>ecg data</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>tuple[np.ndarray, bool, dict]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.roles.get"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.roles.get.get_child_roles">
+<span class="sig-prename descclassname"><span class="pre">ui.roles.get.</span></span><span class="sig-name descname"><span class="pre">get_child_roles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">db.tables.tables.Roles</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.roles.get.get_child_roles" title="Ссылка на это определение">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="ui.roles.get.get_role">
+<span class="sig-prename descclassname"><span class="pre">ui.roles.get.</span></span><span class="sig-name descname"><span class="pre">get_role</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hash_map</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span> </span><span class="pre">typing.Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">db.tables.tables.Roles</span><span class="p"><span class="pre">,</span> </span><span class="pre">None</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#ui.roles.get.get_role" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Получение роли из бд</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>hash_map фильтр</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>dict[str, Any]</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>объект из бд с ошибкой</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>tuple[Roles,  None]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.users.db_ses_wrapper"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.users.db_ses_wrapper.with_db_session">
+<span class="sig-prename descclassname"><span class="pre">ui.users.db_ses_wrapper.</span></span><span class="sig-name descname"><span class="pre">with_db_session</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">handler</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Callable</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Callable</span></span></span><a class="headerlink" href="#ui.users.db_ses_wrapper.with_db_session" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Декоратор для обработчиков, создающий им отдельную сессию</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>handler - функция</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>Callable</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>функция</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>Callable</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-ui.users.user_access"></span><dl class="py function">
+<dt class="sig sig-object py" id="ui.users.user_access.user_access">
+<span class="sig-prename descclassname"><span class="pre">ui.users.user_access.</span></span><span class="sig-name descname"><span class="pre">user_access</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">account_types</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ui.users.user_access.user_access" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Декоратор для разграничения доступа, с параметром тип аккаунта</p>
+<dl class="field-list simple">
+<dt class="field-odd">Param</dt>
+<dd class="field-odd"><p>account_types - список аккаиунтов</p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p>list[str]</p>
+</dd>
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>функция</p>
+</dd>
+<dt class="field-even">Тип результата</dt>
+<dd class="field-even"><p>Callable</p>
 </dd>
 </dl>
 </dd></dl>
@@ -171,7 +366,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="transport.html">Transport module</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">UI module</a></li>
-<li class="toctree-l1"><a class="reference internal" href="db.html">DataBase module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pkg.html">pkg module</a></li>
 </ul>
 
 <div class="relations">
@@ -179,7 +374,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="transport.html" title="предыдущая глава">Transport module</a></li>
-      <li>Next: <a href="db.html" title="следующая глава">DataBase module</a></li>
+      <li>Next: <a href="pkg.html" title="следующая глава">pkg module</a></li>
   </ul></li>
 </ul>
 </div>
@@ -206,7 +401,7 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2023, Ilya, Vika, Engen.
+      &copy;2023, Ilya, Viktoria, Evgeniy.
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
